@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: black;
-    background-image:url(metallogo.png);
+    background-image:url(images/metallogo.png);
     background-repeat:no-repeat;
     background-size:50%;
     background-position: 50% -10%;
