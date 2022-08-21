@@ -16,40 +16,44 @@
                 width="80px"
                 height="80px"
             }></a>
-        <a href="projectboard.html">プロジェクト管理</a>
-        <a href="memberboard.html">サークルに参加する</a>
-        <a href="communicationboard.html">コミュニケーション</a>
+        <a href="memberboard.html">各種招待リンクはこちら</a>
+        <a href="communicationboard.html">プロジェクト開始までのフロー</a>
         <a href="documentsboard.html">参考書類</a>
     </div>
     <div class=main>
         <div class="buttongroup">
+            <h1>何がしたいですか？</h1>
             <a href="https://trello.com/c/8w3JXO1L/2-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E7%AB%8B%E3%81%A1%E4%B8%8A%E3%81%92%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88" target="_blank">
-                <div class="bluebutton">
-                    <p class="b">新規プロジェクト</p>
-                </div>
-            </a>
-            <a href="https://app.slack.com/client/T03R2HJP60L/C03UCADLNAH" target="_blank">
-                <div class="yellowbutton">
-                    <p class="b">メンバー募集</p>
-                </div>
+                <img src="images/newproject.png" alt="newproject" class="button">
             </a>
             <a href="https://trello.com/b/du6EzF4n/projects" target="_blank">
-                <div class="bluebutton">
-                    <p class="b">プロジェクトを探す</p>
-                </div>
+                <img src="images/projectslist.png" alt="projectslist" class="button">
             </a>
-            <a href="https://app.gather.town/app/q00cQZm5ncllHFYb/SDC" target="_blank">
-                <div class="redbutton">
-                    <p class="b">活動に参加する</p>
-                </div>
+            <a href="https://app.slack.com/client/T03R2HJP60L/C03UCADLNAH" target="_blank">
+                <img src="images/recruit.png" alt="recruit" class="button">
             </a>
             <a href="https://app.slack.com/client/T03R2HJP60L/C03UHP5DETE" target="_blank">
-                <div class="yellowbutton">
-                    <p class="b">活動日を確認する</p>
-                </div>
+                <img src="images/Schedule.png" alt="Schedule" class="button">
+            </a>
+            <a href="https://app.slack.com/client/T03R2HJP60L/C03UTU98R3K" target="_blank">
+                <img src="images/consultation.png" alt="consultation" class="button">
+            </a>
+            <a href="https://app.gather.town/app/q00cQZm5ncllHFYb/SDC" target="_blank">
+                <img src="images/join.png" alt="join" class="button">
             </a>
 
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    for (i = 1; i <= 5; i++){
+        var elem = document.getElementById("button" + i);
+        elem.addEventListener("mouseover", function (event) {
+        event.target.style.backgroundColor = "#dddddd";
+        setTimeout(function () {
+        event.target.style.backgroundColor = "";
+        }, 500);
+        }, false);
+    }
+</script>
 </html>
