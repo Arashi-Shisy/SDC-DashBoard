@@ -1,86 +1,95 @@
 body{
+    width:100%;
+    height:100%;
     background-color: black;
     background-image:url(images/metallogo.png);
     background-repeat:no-repeat;
     background-size:50%;
     background-position: 50% -10%;
-    padding:10px;
+    padding:1%;
 }
 .head{
-    width:95%;
     height:20%;
     background-color:#324C5E;
     margin: 0 auto;
-    font-size: 20px;
-    padding:10px;
+    font-size: 1rem;
+    padding:1%;
 }
 .main{
-    width:95%;
     height:78%;
     background-color:#1D2C39;
     margin: 0 auto;
     margin-top: 2%;
-    padding:10px;
-}
-.bluebutton{
-    width:120px;
-    height:120px;
-    text-align: center;
-    line-height:120px;
-    background-color: #2DC8E7;
-}
-.greenbutton{
-    width:120px;
-    height:120px;
-    text-align: center;
-    line-height:120px;
-    background-color: #91E98C;
-}
-.yellowbutton{
-    width:120px;
-    height:120px;
-    text-align: center;
-    line-height:120px;
-    background-color: #FFE471;
-}
-.redbutton{
-    width:120px;
-    height:120px;
-    text-align: center;
-    line-height:120px;
-    background-color: #EF5D35;
-}
-.purplebutton{
-    width:120px;
-    height:120px;
-    text-align: center;
-    line-height:120px;
-    background-color: #C27CC7;
+    padding:1%;
 }
 .buttongroup{
     margin: 0 auto;
     display: flex;
-    width:600px;
+    width:60%;
+    font-size: 1rem;
 }
-
-
+.bluebutton{
+    width:100%;
+    padding-top:40%;
+    padding-bottom: 40%;
+    position:relative;
+    text-align: center;
+    background-color: #2DC8E7;
+}
+.greenbutton{
+    width:100%;
+    padding-top:40%;
+    padding-bottom: 40%;
+    position:relative;
+    text-align: center;
+    background-color: #91E98C;
+}
+.yellowbutton{
+    width:100%;
+    padding-top:40%;
+    padding-bottom: 40%;
+    position:relative;
+    text-align: center;
+    background-color: #FFE471;
+}
+.redbutton{
+    width:100%;
+    padding-top:40%;
+    padding-bottom: 40%;
+    position:relative;
+    text-align: center;
+    background-color: #EF5D35;
+}
+.purplebutton{
+    width:100%;
+    padding-top:40%;
+    padding-bottom: 40%;
+    position:relative;
+    text-align: center;
+    background-color: #C27CC7;
+}
 a{
     color: #99ffff;
     font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    height:100%;
 }
 h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
 }
 h2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
 }
 p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
 }
 .b{
     color:#324C5E;
-    font-size: 13px;
+    font-size:1rem;
 }
