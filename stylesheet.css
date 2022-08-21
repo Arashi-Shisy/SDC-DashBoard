@@ -19,6 +19,9 @@ body{
     margin: 0 auto;
     margin-top: 2%;
     padding:1%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .buttongroup{
     margin: 0 auto;
