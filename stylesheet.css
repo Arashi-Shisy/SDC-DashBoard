@@ -1,21 +1,14 @@
 body{
     width:100%;
-    background-color: black;
+    background-color: rgba(29,44,57,1);
     background-image:url(images/metallogo.png);
     background-repeat:no-repeat;
     background-size:50%;
-    background-position: 50% -10%;
-    padding:1%;
-}
-.head{
-    height:20%;
-    background-color:#324C5E;
-    margin: 0 auto;
-    font-size: 2rem;
+    background-position: 50% 10%;
     padding:1%;
 }
 .main{
-    background-color:#1D2C39;
+    background-color:rgba(29,44,57,0.6);
     margin: 0 auto;
     margin-top: 2%;
     padding:1%;
